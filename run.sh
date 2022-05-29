@@ -1,0 +1,1 @@
+python main.py --data /home/luchixiang/isic/ISIC-2017_Training_Data/0  --epochs 240 --ratio 1.0 --lr 1e-3 --output ./weight --workers 16 --gpus 0,1,2,3 --b 16
