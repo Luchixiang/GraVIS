@@ -44,7 +44,7 @@ or
 bash run.sh
 ```
 
- Please replace the `/home/luchixiang/isic/ISIC-2017_Training_Data/0` with the your ISIC2017 data path
+ Please replace the `./ISIC-2017_Training_Data/0` with the your ISIC2017 data path
 
 `--epochs` defines the number of training epochs
 
@@ -54,4 +54,4 @@ bash run.sh
 
 `--output` denotes the path to save the weight
 
-`--b` is the batch size. Please note that the true batch size is `16 * 20` where 20 denotes that we apply augment one image 20 times to generate the positive samples.
+`--b` is the batch size. Please note that the true batch size is `b * 20` where 20 denotes that we apply augment one image 20 times to generate the positive samples.
