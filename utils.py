@@ -6,7 +6,7 @@ import torch
 import math
 
 
-def get_monu_list(args, txt_path):
+def get_isic_list(args, txt_path):
     img_names = []
     img_path = args.data
     with open(txt_path, 'r') as f:

@@ -27,7 +27,7 @@ def GraVIS_isic_pretask(args):
     ])
     train_transform.transforms.append(Cutout(n_holes=3, length=32))
     train_file = './isic_seg_train.txt'
-    train_imgs = get_monu_list(args, train_file)
+    train_imgs = get_isic_list(args, train_file)
     train_imgs = train_imgs[:int(len(train_imgs) * args.ratio)]
     train_dataset = GraVISDataset(train_imgs, transform=train_transform, two_crop=True)
     print(len(train_dataset))
