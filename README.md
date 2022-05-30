@@ -54,4 +54,4 @@ bash run.sh
 
 `--output` denotes the path to save the weight
 
-`--b` is the batch size. Please note that the true batch size is `b * 20` where 20 denotes that we apply augment one image 20 times to generate the positive samples.
+`--b` is the batch size. Please notice that the actual batch size is `b * 20` where 20 denotes that we augment one image 20 times to generate the positive samples.
